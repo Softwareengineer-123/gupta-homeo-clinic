@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
+    "bootstrap": "node createAdmin.js",
     "dev": "nodemon server.js"
   },
   "keywords": [],
