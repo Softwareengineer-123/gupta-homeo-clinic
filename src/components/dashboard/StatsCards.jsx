@@ -23,7 +23,7 @@ export default function StatsCards() {
   const fetchAppointments = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:5000/api/appointments"
+        "https://gupta-homeo-clinic.onrender.com/api/appointments"
       );
 
       const appointments = res.data;

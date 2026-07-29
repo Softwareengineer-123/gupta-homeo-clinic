@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/appointments";
+const API_URL = "https://gupta-homeo-clinic.onrender.com/api/appointments";
 
 // Get All Appointments
 export const getAppointments = async () => {

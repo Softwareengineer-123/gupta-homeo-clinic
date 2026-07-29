@@ -47,7 +47,7 @@ export default function AppointmentForm() {
 
   try {
     const response = await axios.post(
-      "http://localhost:5000/api/appointments",
+      "https://gupta-homeo-clinic.onrender.com/api/appointments",
       formData
     );
 
